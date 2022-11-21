@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1
--- 產生時間： 2022-11-21 12:22:57
+-- 產生時間： 2022-11-21 16:13:58
 -- 伺服器版本： 10.4.25-MariaDB
 -- PHP 版本： 8.1.10
 
@@ -34,13 +34,6 @@ CREATE TABLE `list1` (
   `pPrice` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- 傾印資料表的資料 `list1`
---
-
-INSERT INTO `list1` (`pId`, `pName`, `pNum`, `pPrice`) VALUES
-(5, 'cheese cakes', 1, 120);
-
 -- --------------------------------------------------------
 
 --
@@ -60,7 +53,7 @@ CREATE TABLE `list2` (
 --
 
 INSERT INTO `list2` (`id`, `name`, `number`, `price`, `orders`) VALUES
-(5, 'cheese cakes', 10, 120, 11),
+(5, 'cheese cakes', 10, 120, 12),
 (6, 'ice cream', 30, 90, 2),
 (7, 'chocolate cake', 30, 110, 0);
 
